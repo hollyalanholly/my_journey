@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height:125vh;
+    margin-top:30px;
+    background-image: url(images/back.bmp);
+    }
+  
+  body,
+   header,
+    h1,
+     h2,
+       figcaption,
+         li {
+    font-family: Georgia;
+    text-align: center;
+  }
+  
+  #open {
+    height: 60px;
+    float: left;
+   }
+  
+  #headernav {
+    
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: georgia;
+    background-color:#333;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px 0 darkgray;
+    margin-bottom: 0px;
+  }
+  
+  #headernav * {
+    display: inline;
+  }
+  
+  #headernav .nav1 {
+    list-style-type: none;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #333;
+    padding: 0px;
+  }
+  
+  #headernav .nav1 li {
+    margin: 40px;
+  }
+  
+  #headernav .nav1 li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  #headernav .nav1 li a:hover {
+    border-bottom: 3px solid tomato;
+  }
+  
+  .header {
+    font-weight: 120;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    width: auto;
+    background-color: tomato;
+    background-image: url(images/open.jpg);
+    height:320px;
+    background-position: left;
+    background-size: auto 120%;
+    top: 0em;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    }
+  
+  #headerdiv {
+    background:  rgba(170, 141, 141, 0.4);
+    width: 600px;
+    margin: 0px auto;
+  }
+  
+  #audio {
+    width:400px;
+    height:25px;
+    margin-top:1px;
+  }
+  
+  .header p {
+    color:white;
+    font-size:16;
+    padding-top: 0px;
+    padding-bottom:20px;
+  }
+  
+  .header1 {
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .column {
+    width:400px;
+    height:500px;
+    display:inline-block;
+    position: relative;
+    padding: 50px;
+    margin: 20px;
+    border: tomato 2px solid;
+  } 
+  
+  .Faves {
+    text-align: left;
+    color:tomato;
+    position: relative;
+    width: 800px;
+    margin: auto;
+  }
+  
+  ol.quote-list {
+    padding: 1px 0px;
+    display: block;
+  }
+  
+  ol.quote-list li {
+    background-color: tomato;
+    padding:10px 20px;
+    margin-bottom: 3px;
+    text-align:center;
+  }
+  
+  .quote-list .quote {
+    color:white;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  
+  .quote-list .category {
+    color:white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  
