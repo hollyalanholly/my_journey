@@ -104,11 +104,29 @@
     margin: 5px;
   }
 
-
   .Achievements li{
     list-style-type: none;
     background: #88ca85;
     margin: 5px;
   }
+
+  .be li{
+    list-style-type: none;
+    background: #ec9378;
+    margin: 5px;
+  }
+
+  .develop li{
+    list-style-type: none;
+    background: #ecd178;
+    margin: 5px;
+  }
+
+  .behave li{
+    list-style-type: none;
+    background: #88ca85;
+    margin: 5px;
+  }
+
 
   
