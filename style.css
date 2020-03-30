@@ -92,67 +92,23 @@
     margin: 0px auto;
   }
   
-  #audio {
-    width:400px;
-    height:25px;
-    margin-top:1px;
+  .skills li{
+    list-style-type: none;
+    background: #ec9378;
+    margin: 5px;
   }
-  
-  .header p {
-    color:white;
-    font-size:16;
-    padding-top: 0px;
-    padding-bottom:20px;
+
+  .qualities li{
+    list-style-type: none;
+    background: #ecd178;
+    margin: 5px;
   }
-  
-  .header1 {
-    background-color: darkgray;
-    margin: 0;
-    padding: 0;
+
+
+  .Achievements li{
+    list-style-type: none;
+    background: #88ca85;
+    margin: 5px;
   }
-  
-  .column {
-    width:400px;
-    height:500px;
-    display:inline-block;
-    position: relative;
-    padding: 50px;
-    margin: 20px;
-    border: tomato 2px solid;
-  } 
-  
-  .Faves {
-    text-align: left;
-    color:tomato;
-    position: relative;
-    width: 800px;
-    margin: auto;
-  }
-  
-  ol.quote-list {
-    padding: 1px 0px;
-    display: block;
-  }
-  
-  ol.quote-list li {
-    background-color: tomato;
-    padding:10px 20px;
-    margin-bottom: 3px;
-    text-align:center;
-  }
-  
-  .quote-list .quote {
-    color:white;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 2px;
-  }
-  
-  .quote-list .category {
-    color:white;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
-  
+
   
